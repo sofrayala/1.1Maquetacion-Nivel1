@@ -157,6 +157,10 @@
   .containerrosa {
     max-width: 100%;
   }
+
+  body {
+    background-color: rgb(161, 236, 233);
+  }
 }
 
 @media (max-width: 576px) {
@@ -166,4 +170,7 @@
   .article4 {
     flex: 1 1 100%;
   }
+
+    body {
+    background-color: rgb(241, 163, 228);
 }
