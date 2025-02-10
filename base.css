@@ -25,7 +25,7 @@
   flex-wrap: wrap;
   align-items: center;
   margin-bottom: 1.5rem;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .logo {
@@ -79,7 +79,7 @@
   margin: 0 auto;
   padding: 1.5rem;
   margin-bottom: 1.5rem;
-  row-gap: 2rem;
+  gap: 1.5rem;
 }
 .containergris {
   background-color: rgb(102, 103, 136);
@@ -90,14 +90,12 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 24px;
-  margin-right: 1.5rem;
 }
 
 .article1,
 .article2,
 .article3,
 .article4 {
-  width: 40%;
   background-color: rgb(60, 71, 214);
   flex: 1 1 calc(50% - 24px);
   display: flex;
@@ -112,6 +110,7 @@
 }
 
 .containerrosa {
+  width: 100%;
   max-width: 200px;
   background-color: rgb(255, 0, 119);
   padding: 24px;
@@ -140,11 +139,31 @@
   flex-wrap: wrap;
   margin: 0 auto;
   padding: 1.5rem;
-  margin-bottom: 2rem;
 }
 
 .pie {
   width: 100%;
   background-color: rgb(243, 243, 172);
   padding: 1rem;
+}
+
+@media (max-width: 830px) {
+  .logo,
+  .nav,
+  .social {
+    width: 100%;
+  }
+
+  .containerrosa {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .article1,
+  .article2,
+  .article3,
+  .article4 {
+    flex: 1 1 100%;
+  }
 }
