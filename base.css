@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .container1 {
   width: 100%;
   max-width: 1200px;
