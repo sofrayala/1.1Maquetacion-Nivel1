@@ -11,11 +11,5 @@ Crear un layout que debe funcionar tanto en escritorio, como móvil y tableta.
 \*HTML
 
 ## Instrucciones de instalación y ejecución.
-<<<<<<< HEAD
-*Clonar el repositorio.
-
-
-=======
->>>>>>> a9151da (update readme)
 
 \*Clonar el repositorio.
