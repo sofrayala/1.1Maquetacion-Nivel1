@@ -11,7 +11,6 @@ Crear un layout que debe funcionar tanto en escritorio, como móvil y tableta.
 
 ## Instrucciones de instalación y ejecución.
 *Clonar el repositorio.
-*Ejecutar npm install.
-*Correr ng serve y abrir en el navegador.
+
 
 
